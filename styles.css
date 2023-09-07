@@ -1,0 +1,41 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{ 
+    margin:0;
+    overflow: hidden;
+}
+
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #fff; 
+    z-index: 100; 
+  }
+  
+ 
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px , 0px;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px; 
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333; 
+  }
+  
+  .menu a:hover,
+  .menu a:active {
+    color: #007bff; 
+  }
+
