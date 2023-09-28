@@ -31,6 +31,9 @@
   .menu a:active {
     color: #007bff; 
   }
+  p1{
+    color: black;
+  }
 
 /* Sección imagenes*/
 
@@ -74,4 +77,105 @@
     text-align: center;
     opacity: 200%;
   }
+
+/*contenedores de Obras*/
+#exhibitions {
+  min-height: 100%;
+  position: relative
+}
+
+#exhibitions header {
+  width: 100%;
+  height: 75px;
+  background: linear-gradient(45deg,#3f4424,#22320e);
+  background: -webkit-linear-gradient(45deg,#3f4424,#22320e);
+  background: -o-linear-gradient(45deg,#3f4424,#22320e);
+  background: -moz-linear-gradient(45deg,#3f4424,#22320e);
+  text-align: right
+}
+
+#exhibitions #container {
+  padding: 0;
+  margin-top: 40px;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  display: flexbox;
+  display: box;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around
+}
+
+
+#container .item {
+  background: rgb(0, 0, 0);
+  width: 33.33333333%;
+  min-width: 33.33333333%;
+  display: block;
+  border: 0 solid;
+  position: relative
+}
+
+#container .item:before {
+  content: "";
+  display: block;
+  padding-top: 100%
+}
+
+
+#container .item .abstract {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0
+}
+
+#container .item .abstract img {
+  max-width: 100%;
+  height: auto
+}
+
+#container .item .abstract a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(0,0,0,0);
+  opacity: 0;
+  -webkit-transition: background .5s .5s,opacity .5s .5s;
+  -moz-transition: background .5s .5s,opacity .5s .5s;
+  transition: background .5s .5s,opacity .5s .5s;
+  display: table
+}
+
+#container .item .abstract a:hover {
+  background: rgba(0,0,0,.5);
+  opacity: 1;
+  -webkit-transition: background .2s,opacity .2s;
+  -moz-transition: background .2s,opacity .2s;
+  transition: background .2s,opacity .2s
+}
+
+#container .item .abstract a .text {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 40px
+}
+
+
+
 
