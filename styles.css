@@ -141,12 +141,12 @@
   bottom: 0;
   right: 0
 }
-
+/*Imagen del contenerdor*/
 #container .item .abstract img {
   max-width: 100%;
   height: auto
 }
-
+/*Contenedor*/
 #container .item .abstract a {
   position: absolute;
   top: 0;
@@ -179,10 +179,10 @@
 
 
 
-  #logotipo {
+#logotipo {
 
-     position: absolute;
-     top: 10px;
-     left: 10px;
-  }
+ position: absolute;
+ top: 10px;
+ left: 10px;
+}
 
