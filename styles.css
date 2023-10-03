@@ -5,36 +5,33 @@
 }
 
 .menu {
-    position: sticky;
-    top: 0;
-    background-color: #fff; 
-    z-index: 100; 
-  }
-  
-  .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px , 0px;
-    display: flex;
-  }
-  
-  .menu li {
-    margin-right: 20px; 
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: #333; 
-  }
-  
-  .menu a:hover,
-  .menu a:active {
-    color: #007bff; 
-  }
-  p1{
-    color: black;
-  }
+  position: sticky;
+  top: 0;
+  background-color: #fff; 
+  z-index: 100; 
+}
 
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  display: flex;
+}
+
+.menu li {
+  margin-left:40px; 
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333; 
+}
+
+.menu a:hover,
+.menu a:active {text-decoration: underline;}
+p1{
+  color: black;
+}
 /* Sección imagenes*/
 
   .container {
@@ -186,3 +183,13 @@
  left: 10px;
 }
 
+
+.img {
+  transition: transform .2s; /* Animation */
+  width: 20px;
+  height: 20px;
+}
+
+.img:hover {
+  transform: scale(1.5);
+}
