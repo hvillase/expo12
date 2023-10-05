@@ -179,17 +179,26 @@ p1{
 #logotipo {
 
  position: absolute;
- top: 10px;
- left: 10px;
+ top: 25px;
+ left: 25px;
 }
 
 
 .img {
   transition: transform .2s; /* Animation */
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .img:hover {
   transform: scale(1.5);
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-inner{
+height: auto;
 }
