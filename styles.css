@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+
 .menu {
   position: sticky;
   top: 0;
@@ -25,10 +26,14 @@
 .menu a {
   text-decoration: none;
   color: #333; 
+  transition: transform .5s;
+  font-weight: normal;
 }
 
 .menu a:hover,
-.menu a:active {text-decoration: underline;}
+.menu a:active {font-weight: bold;
+  font-size: 105%;}
+
 p1{
   color: black;
 }
