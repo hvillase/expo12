@@ -1,8 +1,16 @@
+.UAM {
+display: flex;
+justify-content: center;
+}
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.UAMimg1 {
+margin-right: 5%;
+}
+
 
 .menu {
   position: sticky;
@@ -25,10 +33,14 @@
 .menu a {
   text-decoration: none;
   color: #333; 
+  transition: transform .5s;
+  font-weight: normal;
 }
 
 .menu a:hover,
-.menu a:active {text-decoration: underline;}
+.menu a:active {font-weight: bold;
+  font-size: 105%;}
+
 p1{
   color: black;
 }
